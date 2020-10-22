@@ -1,0 +1,57 @@
+add:
+  datas:
+    - [1,1,2]
+    - [100,100,200]
+    - [0,2,3]
+    - [ 0.1,0.1,0.2]
+    - [ 0.1,0.2,0.3]
+  ids:
+    - 'int_case'
+    - 'bignum_case'
+    - 'zero_fail_case'
+    - 'float_case'
+    - 'float1_case
+sub:
+  datas:
+    - [2,1,1]
+    - [200,50,150]
+    - [0,1,1]
+    - [0.1,0.1,0]
+    - [0.1,0,0.1]
+
+  ids:
+    - 'int_case'
+    - 'bignum_csae'
+    - 'int_fail_case'
+    - 'float_case'
+    - 'float1_case'
+
+div:
+  datas:
+    - [1,1,1]
+    - [100,50,2]
+    - [0,0,0]
+    - [0.6,-0.2,3]
+    - [0.2,1,0.2]
+
+
+  ids:
+    - 'int_case'
+    - 'bignum_case'
+    - 'zero_case'
+    - 'float_case'
+    - 'float1_case
+mul:
+  datas:
+    - [1,1,1]
+    - [100,100,10000]
+    - [-2,-2,4]
+    - [-2,0,-0]
+    - [2,0.3,0.6]
+
+  ids:
+    - 'int_case'
+    - 'bignum_case'
+    - 'minus_case'
+    - 'zero_success'
+    - 'float_case'
